@@ -7,21 +7,12 @@ Getting Started
 To get started with Android/CyanogenMod/SGT7 you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod and SGT7 trees, use a command like this:
+To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/sgt7/android.git -b cm-10.2
+    repo init -u git://github.com/BeyondAosp/android.git -b cm-10.2
 
 Then to sync up:
 
     repo sync
 
-    cp android/local_manifest.xml .repo/local_manifests/local_manifest.xml
-
-    repo sync
-
     . build/envsetup.sh && brunch model_name
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
