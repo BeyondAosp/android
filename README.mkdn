@@ -15,4 +15,6 @@ Then to sync up:
 
     repo sync
 
+To build:
+
     . build/envsetup.sh && brunch model_name
